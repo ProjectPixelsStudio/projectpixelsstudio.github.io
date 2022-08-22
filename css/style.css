@@ -8,7 +8,7 @@
 }
 .type-writer-title{
     color: #ececec;
-    justify-content: left;
+    
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -34,4 +34,17 @@ header a:hover {
   /* Style the active/current link*/
 header a.active {
     color: #fa6e6e;
+}
+.centered_text {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    color: #ececec;
+    text-align: center;
+    font-size: medium;
+}
+.full_center {
+
+    position: a;           /* 3 */
+    transform: translate(0, -50%);
 }
