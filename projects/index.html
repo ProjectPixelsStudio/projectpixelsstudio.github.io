@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/style.css">
         <script src="/js/logo_script.js"></script>
-        <script src="/js/serverPushNotifications.js"></script>
         <link rel="icon" type="image/png" href="/assets/img/flavicon.png">
     </head>
     <body onload="typeWriterReveal()">
@@ -16,13 +15,16 @@
             <h1 class="type-writer-title" id="type-writer-title"></h1>
             <nav>
                 <ul class="header_links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a class="active" href="#">Projects</a></li>
+                <li><a href="/careers">Careers</a></li>
                 </ul>
             </nav>
             <a href="/contact">Contact Us</a>
+            <span class="line"></span>
         </header>
-        <button onid="enable">Enable notifications</button>
-        <button onif='addLog("test")'>Add To Log</button>
+        <div class="centered_text">
+            <p style="margin-top: 100px; ">We've got some exiting projects in the making. 🤫</p>
+        </div>
     </body>
 </html>

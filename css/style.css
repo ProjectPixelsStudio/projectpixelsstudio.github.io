@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 p{
@@ -8,23 +10,32 @@ p{
 }
 
 * {
+    color: #ececec;
+    font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #1a2c36;
 }
+
 .type-writer-title{
     color: #ececec;
     
     font-family: 'Roboto Mono', monospace;
 }
-
+.pps_summary{
+    margin-top: 100px;
+    justify-content:space-evenly;
+    font-size: x-small;
+    text-align: center;
+    justify-content: center;
+}
 
 li, a ,button {
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 16px;
-    color: #ececec;
+
     text-decoration: none;
 }
 
@@ -33,6 +44,7 @@ header {
     align-items: center;
     padding: 10px 1%;
     justify-content: space-evenly;
+    border-bottom: 2px white;
 }
 header a:hover {
     color: #b34e4e;
@@ -45,8 +57,8 @@ header a.active {
 .centered_text {
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 100px;
     color: #ececec;
+    font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-size: medium;
 }
@@ -60,8 +72,8 @@ header a.active {
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
-    align-items: center;
-    justify-content:space-evenly;
+    align-items: left;
+    display: inline-block;
 }
 .contact_field_text{
     margin-left: 50px;
@@ -80,4 +92,12 @@ header a.active {
     width: 3.5%;
     height: auto;
     align-items: center;
+
+}
+.line {
+    border-bottom: 1px dashed grey;
+    display: block;
+}
+.list{
+    color:#f3b1b1;
 }

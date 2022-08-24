@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" href="css/style.css">
     <script src="js/logo_script.js"></script>
+    <script src="/js/warning.js"></script>
     <link rel="icon" type="image/png" href="assets/img/flavicon.png">
   </head>
   <body onload="typeWriterReveal()">
@@ -16,12 +17,20 @@
         <h1 class="type-writer-title" id="type-writer-title"></h1>
         <nav>
           <ul class="header_links">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/careers">Careers</a></li>
           </ul>
         </nav>
-        <a class="cta active" href="/contact"><button>Contact Us</button></a>
+        <a href="/contact/">Contact Us</a>
       </header>
-      <h1 class="type-writer-title centered_text">Project Pixels Studio is a group of ambitious creators, that currently consists of two members. At the moment our studio is non-profit (which we hope to change in the future) and is entirely done in our free time.</h1>
+      <h1 id="error"></h1>
+      <div class="centered_text">
+        <div class="pps_summary">
+          <h1>Project Pixels Studio is a group of ambitious creators, that currently consists of two members. At the moment our studio is non-profit (which we hope to change in the future) and is entirely done in our free time.</h1>
+          <img class="pps_summary_img" src="/assets/img/flavicon.png">
+        </div>
+      </div>
+      
   </body>
 </html>

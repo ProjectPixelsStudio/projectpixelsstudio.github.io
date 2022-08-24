@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
    
     if (Notification.permission !== 'granted')
      Notification.requestPermission();
-     console.log("Notification Permission Granted")
    });
    
    
@@ -24,3 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
      };
     }
    }
+
+function addLog(data)
+    fs.appendFile('log.txt', data, function (err) {
+      if (err) throw err;
+      console.log('Saved!');
+});
