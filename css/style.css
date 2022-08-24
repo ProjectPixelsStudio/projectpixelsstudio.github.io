@@ -101,3 +101,30 @@ header a.active {
 .list{
     color:#f3b1b1;
 }
+.jobs_container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+
+}
+.datapack_dev_job{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 50px;
+    font-size: x-large;
+    border: dashed #f3b1b1;
+    
+}
+.job_inner_container{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: large;
+}
+.apply_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: xx-large;
+    color: #fa6e6e;
+}
