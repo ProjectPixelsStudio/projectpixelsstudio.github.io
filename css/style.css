@@ -70,10 +70,8 @@ header a.active {
 
 .contact_field{
     margin-left: 200px;
-    margin-right: 200px;
     margin-top: 100px;
     align-items: left;
-    display: inline-block;
 }
 .contact_field_text{
     margin-left: 50px;
